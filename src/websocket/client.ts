@@ -51,5 +51,8 @@ io.on("connect", (socket) => {
       user_id,
     });
 
+    const allMessages = await messagesService.listByUser(user_id);
+    socket.emit("client_all_messages_list", allMessages);
+
   });
 });
