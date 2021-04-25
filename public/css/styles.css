@@ -303,6 +303,9 @@ input[type="text"]:focus {
 
   border-radius: 10px;
 
+  float: right;
+  clear: both;
+
   font-family: "Roboto", sans-serif;
 }
 
@@ -319,13 +322,15 @@ input[type="text"]:focus {
   display: flex;
   flex-direction: column;
 
+  float: left;
+  clear: both;
+
   border-radius: 10px;
   font-family: "Roboto", sans-serif;
 }
 
 .admin_date {
   font-size: 10px;
-  color: #fff;
 }
 
 .in_support {
